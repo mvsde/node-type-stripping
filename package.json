@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "vanilla": "node 1-vanilla/main.js",
+    "jsdoc": "node 2-jsdoc/main.js",
+    "typescript": "node --experimental-strip-types 3-typescript/main.ts"
+  },
+  "engines": {
+    "node": ">=22.6"
+  }
+}
